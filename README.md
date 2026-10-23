@@ -4,10 +4,12 @@ A custom interpretation of the [QR code component challenge on Frontend Mentor](
 
 This is an intentional visual adaptation rather than a pixel-perfect reproduction of the supplied design. The QR code links to [marin-sveg on GitHub](https://github.com/marin-sveg).
 
+![Desktop preview of the published QR code component](preview.jpg)
+
 ## Links
 
 - Repository: https://github.com/marin-sveg/qr-code-component
-- Intended GitHub Pages URL: https://marin-sveg.github.io/qr-code-component/ (available once Pages has been enabled and deployment finishes)
+- Live site: https://marin-sveg.github.io/qr-code-component/
 
 ## Built with
 
@@ -41,6 +43,10 @@ favicon.svg    Browser tab icon
 The QR code has an opaque pale background and dark indigo modules to preserve contrast against the transparent card. The glass effect is limited to the surrounding card. Decorative animation is hidden from assistive technologies, and links have visible keyboard-focus states.
 
 The implementation was developed with assistance from OpenAI Codex. The visual direction and subsequent changes were specified by the project owner.
+
+## Validation
+
+The published site was checked in the browser at desktop and 375px mobile widths. The QR image loaded, the layout had no horizontal overflow, both links pointed to the intended GitHub profile, and the Open GitHub button contained no arrow. JavaScript syntax was checked locally. Scanning with a physical phone camera is still recommended.
 
 ## Feedback
 
